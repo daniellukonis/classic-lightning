@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(closest-side, #a8c4cf, #3f87a6, #742fce);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+canvas{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+cite{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 3;
+    color:white;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.mask{
+    position: relative;
+    border-radius: 50%;
+    width: 100vh;
+    height: 100vh;
+    background-color: rgba(105, 116, 214, 0.15);
+    z-index: 2;
+}
